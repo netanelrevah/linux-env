@@ -6,6 +6,8 @@ sudo apt-get install git
 mv ~/.vimrc ~/.vimrc.bkp
 ln -s .vimrc ~/.vimrc
 
+sudo update-alternatives --set editor /usr/bin/vim.basic
+
 mv ~/.tmux.conf ~/.tmux.conf.bkp
 ln -s .tmux.conf ~/.tmux.conf
 
